@@ -11,4 +11,6 @@ def revert_string( s: str ) -> str:
 
     return reverted
 
-print( revert_string("Target") )
+string_original = str( input( "Digite uma palavra para ser revertida: \n"))
+
+print( revert_string( string_original ) )
